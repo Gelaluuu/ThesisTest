@@ -1,0 +1,67 @@
+.month{
+	background:#92beeb;
+	width: 100%;
+	height:5rem;
+	background-color: transparent;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+.weekdays{
+display:flex;
+align-items: center;	
+}
+.weekdays div {
+	letter-spacing:0.1rem;
+	font-size:1rem;
+	width:calc(22.2rem/7);
+	justify-content:center;
+	display:flex;
+	align-items:-center;
+}
+.calendar_body{
+	width:100%;
+}
+.days{
+	display:flex;
+	flex-wrap:wrap;
+	align-items:center;
+	padding-top:10px;
+}
+.days div{
+	letter-spacing:0.1rem;
+	width:calc(22rem/7);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:3rem;
+	transition: background-color 0.2s;
+}
+.days div:hover:not(current-date){
+	background-color: #262626;
+	border: 0.2rem solid #777;
+	cursor:pointer;
+}
+.currmonth{
+	width:100%;
+}
+.currmonth div{
+	width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.prev-date,
+.next-date{
+	opacity:0.5;
+
+}
+.current-date{
+	background-color: #405ce2;
+}
+.current:hover{
+	background:var(--current-date);
+}
+.next,.prev{
+	cursor:pointer;
+	font-size:3rem;
+}

@@ -1,0 +1,334 @@
+.content-header{
+	display:flex;
+}
+.back-button-page{
+    color: var(--text-color);
+    position: relative;
+    top: -171px;
+    right: -35px;
+    border-radius: 50%;
+    height: 25px;
+    cursor: pointer;
+    width: 25px;
+    border: 1px solid var(--text-color);
+    background-color: #ffffff00;
+}
+textarea#recomm {
+    resize: none;
+    width: 315px;
+    height: 218px;
+    outline: none;
+}
+.add-content{
+	position: relative;
+    display: none;
+    justify-content: center;
+    padding: 20px;
+}
+.container-add-content{
+    padding: 20px;
+    margin: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 7px 25px rgb(0 0 0 / 34%);
+    color: var(--text-color);
+    background: #0e1726;
+}
+.add-button{
+	display:flex;
+	justify-content:center;
+	width:100%;
+}
+.edit-content{
+    top: 0px;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+.edit-back-button{position: relative;top: -32px;right: -179px;border-radius: 50%;height: 25px;cursor: pointer;width: 25px;color: white;background-color: #ffffff00;}
+.container-edit-content{
+	    padding: 20px;
+	    margin: 20px;
+	    color: white;
+	    background: #0e1725;
+	    border-radius: 5px;
+	    box-shadow: 0 7px 25px rgb(0 0 0 / 34%);
+}
+.assessment-table-content{
+	position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.input-holder{
+	display: block;
+	justify-content: space-around;
+	align-items: center;
+	width: 310px;
+	/* margin: 20px; */
+	padding: 5px;
+	/* gap: 5px; */
+}
+.assessment-data-page{
+    position: relative;
+    display: none;
+    top: -105px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+/*for responsive make the back button relative to fix the button*/
+.assessment-data-page .content-header .back-button-page{
+    color: var(--text-color);
+    border: 1px solid white;
+	    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+.questionnaire-table{
+    background-color: white;
+    height: 300px;
+    width: 80%;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 7px 25px rgb(0 0 0 / 34%);
+    background: #0e1726;
+}
+.table-holder-main{
+	width:90%;
+}
+
+.table-holder-main table{
+	width:100%;
+	border-collapse: collapse;
+}
+.table-holder-data, .table-holder-data table {
+    color:var(--text-color);
+    width: 100%;
+    border-collapse: collapse;
+    height: 260px;
+    overflow: auto;
+
+}
+.table-holder-data table tr:nth-child(1) {
+    position: sticky;
+    top: -1px;
+    height: 50px;
+}
+.table-holder-main table{
+	box-shadow: 0 7px 25px rgb(0 0 0 / 34%);
+}
+.table-holder-data table tr{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.table-holder-main table tr{
+    color: var(--text-color);
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.table-holder-data table .assess {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.table-holder-main table tr th{
+	background-color: #0e1726;
+}
+.title{
+    color: var(--text-color);
+}
+
+.table-holder-main table tr th,
+.table-holder-main table tr td{
+	 padding:12px 15px;
+  border:1px solid #ddd;
+  text-align: center;
+  font-size:16px;
+  gap:15px;
+}
+
+.table-holder-data table td,
+.table-holder-main table td{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 12px 15px;
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 16px;
+	gap: 15px;
+	background-color: transparent;
+}
+
+.table-holder-data table tr th {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+    gap: 15px;
+    background-color: #070a1a;
+}
+.table-holder-main th{
+    background-color: var(--appbar-content);
+    color: var(--text-color);
+}
+
+form .add-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-button 
+ input {
+    height: 30px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 12px;
+    background: #415fe8;
+    color: white;
+}
+.input-holder input {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+}
+.input-holder input {
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+    width: 100%;
+    height: 80%;
+}
+
+input#Edit-questionnaire {
+    box-shadow: 0 7px 25px rgb(0 0 0 / 34%);
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5d537ad;
+    width: 35px;
+    text-align: center;
+}
+
+input#Edit-questionnaire:hover {
+    box-shadow: 0 7px 25px rgb(0 0 0 / 34%);
+    height: 25px;
+    background-color: #ffdc2b;
+    width: 35px;
+    border: 1px solid;
+    text-align: center;
+}
+
+
+
+input#Delete-questionnaire {
+    box-shadow: 0 7px 25px rgb(0 0 0 / 34%);
+    height: 25px;
+    background-color: #ff6a6a;
+    width: 65px;
+    border-radius: 5px;
+    border: 1px solid;
+    text-align: center;
+}
+
+input#Delete-questionnaire:hover {
+    box-shadow: 0 7px 25px rgb(0 0 0 / 34%);
+    height: 25px;
+    background-color: #ff1b1b;
+    width: 65px;
+    border: 1px solid;
+    text-align: center;
+}
+
+@keyframes down {
+    0%{
+        height:0px
+    }
+    100%{
+        height:150px;
+    }
+}
+@keyframes visible_down {
+    0%{
+        height:0px;
+        transition:.5s;
+    }
+    100%{
+        height:20px;
+        transition:.5s;
+    }
+}
+@keyframes delay{
+    0%{
+        height:0px;
+    }
+    100%{
+        display:block;
+        height:18px;
+    }
+}
+
+@keyframes delay_rev{
+    150px{
+        height:150px;
+    }
+    0px{
+        height:0px;
+    }
+}
+td#question_2 {
+    text-align: start;
+}
+@media(max-width: 500px) {
+	
+	.scale{
+	   display: block;
+	   width: 100%;
+	}
+	.table-holder-data table tr:nth-child(1) {
+	    position: sticky;
+	    top: -1px;
+	    height: 50px;
+	    display: none;
+	}
+	.ass-tb{
+		padding: 0px;
+	}
+	.ass-tb tr{
+		padding: 0px;
+	}
+	.table-holder-main tbody,
+	.table-holder-main tbody tr{
+		padding:0;
+	}
+	.table-holder-data table tr{
+		display: block;
+	}
+	.table-holder-data table, tbody, tr, td {
+	    display: block;
+	    width: 100%;
+	    padding: 5px;
+	}
+	.table-holder-data table .assess {
+	    display: block;
+	}
+	.table-holder-data table td::before {
+	    content: attr(data-label);
+	    position: relative;
+	    width: 100%;
+	    padding-left: 15px;
+	    font-size: 15px;
+	    font-weight: bold;
+	    text-align: left;
+	    float: left;
+	    font-size: 15px;
+	}
+}

@@ -1,0 +1,112 @@
+body{
+	padding:0;
+	margin:0;
+}
+.Container{
+    background-image: url(cctback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+.main-form{
+	top: -29px;
+    position: relative;
+    padding: 10px;
+}
+.form-container{
+    background: #f5f5f5a6;
+    padding: 20px;
+    width: 250px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+
+}
+.Email-container,.password-container{
+	margin-bottom:20px;
+	width: 100%;
+}
+
+label{
+	display: block;
+    text-align: center;
+}
+.error{
+    top: -48px;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    background-color: #f2DEDE;
+    color: #A94442;
+    width: 95%;
+    height: 30px;
+    padding: 10px;
+    margin: 20px auto;
+    align-items: center;
+}
+.username,.password {
+    background-color: #80808069;
+    color: black;
+    width: 100%;
+    border-radius: 15px;
+    outline: none;
+    height: 25px;
+    border: none;
+    text-align: center;
+}
+.submit-button{
+    border: none;
+    height: 25px;
+    position: relative;
+    left: 80px;
+    border-radius: 15px;
+    outline: none;
+    background-color: green;
+    width: 100px;
+    color: white;
+}
+.logo{
+    position: relative;
+    top: -74px;
+    background-image: url(Artboard3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+    width: 100%;
+}
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    font-size: 10px;
+    margin-top: 20px;
+    position: relative;
+	color:blue;
+}
+.sign-up a:visited{
+    color: blue;
+}
+
+
+.forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    font-size: 10px;
+	color:blue;
+}
+.forgot a:visited{
+	color:blue;
+}

@@ -1,0 +1,32 @@
+:root{
+
+	--unread-box:white;
+	--notif-title:#8bbaea;
+	--calendar:#2b81d845;
+	--current-date:#2b81d8;
+	--assessment-text:black;
+	--account-button:#ffb607;
+	--archive-button:#3fbc27;
+	--darkmode-button:#6b2ce0;
+	--message-box:white;
+	--nav-drawer:#2b81d8;
+	--appbar:#ffffff;
+	--appbar-content:#8bbaea;
+	--drawer-menu:black;
+	--profile-container:#71b7cd;
+	--user-logo:#cebebe;
+	--hover:white;
+	--text-color:black;
+	--beforeandafter:#ffffff;
+	--logo-color:black;
+	--message-box:white;
+	--send-color:#1cf9ef;
+	--text-area:black;
+	--switch:black;
+	--form:white;
+	--profile:#3a577e;
+	--inbox:#6b2ce0;
+	--assessment:#3fbc27;
+	--settings:#ffb607;
+	--history:#2b81d8;
+}

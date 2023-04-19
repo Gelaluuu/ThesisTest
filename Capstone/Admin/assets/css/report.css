@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+}
+
+
+
+.logo-com,.logo-own {
+    height: 10rem;
+    display: flex;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-com-holder {
+}
+
+.center-header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-holder {
+    height: 100%;
+    padding: 10px;
+}
+
+.title-header {
+    text-align: center;
+    height: 30px;
+    margin: 10px;
+}
+
+.location-header {
+    text-align: center;
+    height: 30px;
+    margin: 10px;
+}
+
+.address-header {
+    text-align: center;
+    height: 30px;
+}
+.report {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.body-report {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.report-info {
+    width: 100%;
+}
+
+.report-title-status {
+    width: 100%;
+}
+
+.report div {
+    padding: 5px;
+}
+.title-head-report {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.report-table-results {
+    position: relative;
+	
+}

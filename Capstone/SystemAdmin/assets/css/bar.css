@@ -1,0 +1,81 @@
+/*body{
+	padding:0px;
+	margin:0px;
+	/* height:100vh; 
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-family:"Roboto",sans-serif;
+}*/
+.card_graph_gender{
+	width: 100%;
+	/* height: 100%; */
+	display: flex;
+	position: relative;
+	padding: 10px;
+}
+
+.gender_number{
+	padding:0px;
+	margin:0px;
+	width: 50px;
+	height: 250px;
+	display: block;
+	/* float:left; */
+	position: relative;
+}
+.gender_number li{
+	list-style:none;
+	height: 97px;
+	position:relative;
+	bottom: 90px;
+}
+
+.gender_number span{
+	font-size:12px;
+	font-weight:600;
+	position:absolute;
+	bottom:0;
+	right:10px;
+}
+
+.horizontal_bar_graphs{
+	font-size:12px;
+	font-weight:600;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	display: block;
+	height: 250px;
+	position: absolute;
+}
+.horizontal_bar_graphs li{
+	display:table-cell;
+	width: 200px;
+	height: 200px;
+	position:relative;
+}
+
+.horizontal_bar_graphs span{
+	width:100%;
+	position:absolute;
+	bottom:-30px;
+	text-align:center;
+	
+}
+
+.horizontal_bar_graphs .bar{
+	display:block;
+	background:blue;
+	width:50px;
+	position:absolute;
+	bottom:0;
+	margin-left: 65px;
+	text-align:center;
+}
+.horizontal_bar_graphs .bar:before{
+	content:attr(data-percentage) '%';
+	position:relative;
+	bottom:20px;
+	
+}

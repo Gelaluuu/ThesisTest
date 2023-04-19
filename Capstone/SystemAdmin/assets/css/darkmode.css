@@ -1,0 +1,25 @@
+:root{
+	--nav-drawer:#212020;
+	--appbar:#000000;
+	--appbar-content:#424342;
+	--drawer-menu:white;
+	--profile-container:#8b7e74;
+	--user-logo:#3a3636;
+	--hover:#3a3636;
+	--text-color:white;
+	--beforeandafter:#3a3636;
+	--logo-color:white;
+	--content-box:#9E9E9E;
+	--grey:#3a3636;
+	--notif-title:#434242;
+	--message-box:#3a3636;
+	--send-color:white;
+	--text-area:white;
+	--switch:white;
+	--form:#212020;
+	--info:#212020;
+	--accounts:#181818;
+	--darkmode:#181818;
+	--accounts_border:#3fbc27;
+	--darkmode_border:#6b2ce0;
+}

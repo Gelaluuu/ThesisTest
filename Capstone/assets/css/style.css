@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+}
+body{
+    background: white;
+}
+.information_table {
+	background: #f5f5f5a6;
+    display: block;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+    border-radius: 15px;
+    box-shadow: 0 7px 25px rgb(0 0 0 / 34%);
+}
+
+
+.information_table div input {
+    border-radius: 5px;
+    height: 20px;
+    border: 1px solid;
+    padding:5px;
+}
+form.insert-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+input#submit-data {
+	color: white;
+    background-color: green;
+    position: absolute;
+    right: 0px;
+    height: 25px;
+    width: 60px;
+    border-radius: 15px;
+    top: 0px;
+    cursor: pointer;
+    box-shadow: 0px 7px 25px rgb(4 4 4 / 34%);
+    border: 1px solid;
+}
+.information_table div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+input#show_password,input#show_password_new {
+    position: absolute;
+    right: 5px;
+}
+div#add-account {
+    background-image: url(cctback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.information_table div:nth-child(8) {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    gap: 20px;
+}
+
+
+
+.information_table div:nth-child(8):nth-child(2) {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    left: 0px;
+}
+
+.information_table div:nth-child(8):nth-child(1) {}
+
+.information_table div:nth-child(8) div:nth-child(3) {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100px;
+}
+
+.information_table div:nth-child(8) div {
+    width: 100%;
+    justify-content: start;
+}
+
+.information_table div:nth-child(8) div:nth-child(2) {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100px;
+}

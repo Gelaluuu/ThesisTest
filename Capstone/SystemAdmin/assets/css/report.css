@@ -1,0 +1,120 @@
+.header {
+    display: flex;
+}
+
+.report-card{
+   
+    margin-left: 50px;
+    margin-right: 50px;
+	display:none;
+}
+th.th-s {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+th.th-m {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+th.th-main {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+tbody#body-report tr td {
+    border: 1px solid #000;
+    text-align:center;
+}
+
+table.table-striped {
+    border-collapse: collapse;
+}
+
+.logo-com{
+    background-image: url(Artboard3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10rem;
+    display: flex;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+.logo-own {
+    background-image: url(Artboard1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10rem;
+    display: flex;
+    width: 15rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-com-holder {
+}
+
+.center-header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-holder {
+    height: 100%;
+    padding: 10px;
+}
+
+.title-header {
+    text-align: center;
+    height: 30px;
+    margin: 10px;
+}
+
+.location-header {
+    text-align: center;
+    height: 30px;
+    margin: 10px;
+}
+
+.address-header {
+    text-align: center;
+    height: 30px;
+}
+.report {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.body-report {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.report-info {
+    width: 100%;
+}
+
+.report-title-status {
+    width: 100%;
+}
+
+.report div {
+    padding: 5px;
+}
+.title-head-report {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.report-table-results {
+    position: relative;
+	
+}

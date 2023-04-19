@@ -1,0 +1,25 @@
+:root{
+	--nav-drawer:#2b81d8;
+	--appbar:#ffffff;
+	--appbar-content:#8bbaea;
+	--drawer-menu:black;
+	--profile-container:#71b7cd;
+	--user-logo:#cebebe;
+	--hover:white;
+	--text-color:black;
+	--beforeandafter:#ffffff;
+	--logo-color:black;
+	--content-box:white;
+	--grey:white;
+	--notif-title:#8bbaea;
+	--message-box:white;
+	--send-color:#1cf9ef;
+	--text-area:black;
+	--switch:black;
+	--form:white;
+	--info:#1afdf4;
+	--records:#6b2ce0;
+	--accounts:#3fbc27;
+	--settings:#ffb607;
+	--settings_:#6b2ce0;;
+}
